@@ -13,8 +13,6 @@ app.use(bodyParser.json());
 app.post('/servidor', (req, res) => {
   const datos = req.body;
 
-  console.log(datos['nombre']);
-
   const connection = mysql.createConnection({
     server: 'localhost',
     database: 'pub',
