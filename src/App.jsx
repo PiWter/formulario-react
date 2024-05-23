@@ -47,7 +47,7 @@ export function App() {
 
     
     function sendData(data) {
-        fetch("http://localhost:8000/servidor.php",{
+        fetch("http://localhost:3000/servidor",{                 //para php -> http://localhost:8000/servidor.php
         method:'POST',
         headers:{
             'Content-type':'application/json'
