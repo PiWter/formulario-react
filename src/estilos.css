@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.formulario{
+    display: grid;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    padding: 90px;
+}
+
+.campo{
+    padding: 5px;
+}   
+
+#nombreIncorrecto{
+    display: none;
+}
+
+#apellidoIncorrecto{
+    display: none;
+}
+
+#numeroIncorrecto{
+    display: none;
+}
+
+#correoIncorrecto{
+    display: none;
+}
