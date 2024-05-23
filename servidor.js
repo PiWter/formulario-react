@@ -1,8 +1,9 @@
-const mysql = require('mysql');
-const express = require('express');
-const bodyParser = require('body-parser');
+import mysql from "mysql";
+import express from "express";
+import bodyParser from "body-parser";
+import cors from "cors";
+
 const app = express();
-const cors = require('cors');
 
 
 app.use(cors());
